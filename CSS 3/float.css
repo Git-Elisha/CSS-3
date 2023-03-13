@@ -1,0 +1,48 @@
+.float {
+    padding: 30px;
+    background-color: darkblue;
+    color: white;
+}
+
+.float img {
+    float:left;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: orange;
+}
+
+#float-example > div {
+    padding: 20px 0px;
+    text-align: center;
+    width: 100px;
+}
+
+.green {
+    float: left;
+    background: rgb(101, 151, 101);
+}
+
+.red {
+    float: left;
+    background: rgb(218, 107, 107);
+}
+
+.blue {
+    float: left;
+    background: rgb(31, 123, 153);
+}
+
+.Yellow {
+    float: right;
+    background: rgb(235, 235, 4);
+}
+
+.purple {
+    float: right;
+    background: plum;
+}
+
+.brown {
+    float: right;
+    background: rgb(194, 104, 104);
+}

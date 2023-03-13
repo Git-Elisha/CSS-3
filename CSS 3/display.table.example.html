@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Table</title>
+    <style>
+.table {
+    margin-top: 100px;
+    margin-left: 50px;
+    display: table;
+    width: 600px;
+    
+}
+.row {
+    display: table-row;
+    
+}
+.col {
+    display: table-cell;
+    border: 1px solid orangered;
+    padding: 10px 30px;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    display: table-header-group;
+}
+.footer {
+    display: table-footer-group;
+}
+.caption {
+    display: table-caption;
+    text-align: center;
+    color: orangered;
+    font-weight: 500px;
+    padding: 10px;
+}
+.col-group {
+    display: table-column-group;
+}
+.tbl-col {
+     display: table-column;
+}
+.col2 {
+    width: 30px;
+    background: rgb(229, 171, 149);
+}
+    </style>
+</head>
+<body>
+    <div class="table">
+        <div class="caption">
+          EK Software Solution</div>
+          <div class="col-group">
+            <div class="tbl-col">Col-1</div>
+            <div class="tbl-col col2">Col-2</div>
+            <div class="tbl-col">Col-3</div>
+          </div>
+        <div class="header">
+        <div class="row">
+            <div class="col">Name</div>
+            <div class="col">Age</div>
+            <div class="col">City</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">Raj</div>
+            <div class="col">25</div>
+            <div class="col">Chennai</div>
+        </div>
+        <div class="row">
+            <div class="col">Aakash</div>
+            <div class="col">22</div>
+            <div class="col">Salem</div>
+        </div>
+        <div class="row">
+            <div class="col">Balaji</div>
+            <div class="col">45</div>
+            <div class="col">Hosur</div>
+        </div>
+        <div class="row">
+            <div class="col">Willson</div>
+            <div class="col">34</div>
+            <div class="col">Bangalore</div>
+        </div>
+        <div class="row">
+            <div class="col">Xavior</div>
+            <div class="col">30</div>
+            <div class="col">Chennai</div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="col">Total Students</div>
+                <div class="col"></div>
+                <div class="col">5</div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+span [alt] {
+    color: greenyellow;
+}
+
+span a[target="_blank"] {
+     background-color: yellow;
+}
+

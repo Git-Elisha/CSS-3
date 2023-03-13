@@ -1,0 +1,20 @@
+body {
+    counter-reset: videos;
+}
+
+/* Utillities */
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.Counters {
+    background-color: rgb(243, 120, 5);
+    padding: 20px;
+}
+
+h2::before {
+    counter-increment: videos+20;
+    content: "videos #" counter(videos) ":";
+    color: white;
+}
